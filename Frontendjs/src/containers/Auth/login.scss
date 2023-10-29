@@ -1,0 +1,89 @@
+.login-background {
+  background: linear-gradient(
+    135deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+  border: 1px solid red;
+  height: 100vh;
+  .login-container {
+    background: white;
+    width: 400px;
+    margin: 0 auto;
+    position: absolute;
+    top: 20%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 400px;
+  }
+  .title-login {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .login-content {
+    padding: 15px;
+  }
+  .input-login {
+    margin: 7px 0px;
+    .custom-input-password {
+      position: relative;
+      .icon-display-password {
+        position: absolute;
+        right: 6px;
+        cursor: pointer;
+        top: 10.5px;
+      }
+    }
+  }
+  .btn-login {
+    width: 100%;
+    background: linear-gradient(
+      135deg,
+      rgba(34, 193, 195, 1) 0%,
+      rgba(253, 187, 45, 1) 100%
+    );
+    font-size: 18px;
+    border: none;
+    color: white;
+    border-radius: 7px;
+  }
+  .span-forgot-pw {
+    margin-top: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+    color: rgb(91, 89, 89);
+  }
+  .social-login {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+
+    .icon-google {
+      display: flex;
+      font-size: 18px;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      background: #dc4e41;
+      cursor: pointer;
+    }
+    .icon-fb {
+      display: flex;
+      font-size: 18px;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      background: #3b5998;
+      margin-left: 8px;
+      cursor: pointer;
+    }
+  }
+}
